@@ -1,0 +1,55 @@
+.example-card {
+    flex: 1;
+    margin: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer; 
+  }
+
+  .example-card:hover {
+    box-shadow: 0 4px 8px #ff9A8d /* Add subtle shadow on hover */
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  
+  div[style="display: flex; justify-content: space-between;"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  @media (max-width: 768px) {
+    .example-card {
+      flex: 1 1 100%;
+      margin: 10px 0;
+    }
+  }
+
+  .container{
+    display: flex; 
+    justify-content: space-between;
+}
+
+  .icon-size{
+    width: 300px;
+  height: 300px;
+  object-fit: cover;
+  padding-top:20px ;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color:#4a536b;
+  }
+
+  .header-card {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Ensure text is centered */
+    padding-bottom: 20px;
+    background-color:#aed6dc;
+  }
